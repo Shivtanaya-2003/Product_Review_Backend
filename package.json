@@ -1,7 +1,7 @@
 {
   "name": "product_review_backend",
   "version": "1.0.0",
-  "description": "A responsive product review web application built using **HTML, CSS, and React.js**.  \r Users can browse products, submit ratings, and write reviews to help others make informed decisions.",
+  "description": "Backend for product review app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
