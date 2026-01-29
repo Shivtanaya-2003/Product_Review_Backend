@@ -1,0 +1,204 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Tanaya",
+      "lastName": "Choudhary",
+      "username": "tanaya123",
+      "email": "tanaya@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "9ff0",
+      "firstName": "Shivpriya",
+      "lastName": "Choudhary",
+      "gender": "female",
+      "email": "priya123@gmail.com",
+      "username": "priya123",
+      "password": "priya123"
+    },
+    {
+      "id": "2017",
+      "firstName": "om",
+      "lastName": "Choudhary",
+      "gender": "male",
+      "email": "om123@gmail.com",
+      "username": "om123",
+      "password": "om123"
+    },
+    {
+      "id": "e760",
+      "firstName": "Shreya",
+      "lastName": "patil",
+      "gender": "female",
+      "email": "shreya12@gmail.com",
+      "username": "shreya12",
+      "password": "shreya12"
+    },
+    {
+      "id": "d808",
+      "firstName": "Prerna",
+      "lastName": "Bhamre",
+      "gender": "female",
+      "email": "prerna03@gmail.com",
+      "username": "prerna03",
+      "password": "prerna03"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 14",
+      "price": 79999,
+      "image": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SX679_.jpg",
+      "description": "Apple iPhone 14 with A15 Bionic chip and advanced dual camera system.",
+      "reviews": [
+        {
+          "userId": 1,
+          "id": 1,
+          "user": "tanaya",
+          "rating": 5,
+          "comment": "Excellent phone! Totally worth it."
+        },
+        {
+          "id": 1769429762962,
+          "userId": "9ff0",
+          "user": "priya123",
+          "rating": 4,
+          "comment": "Excellent Product! must buy this.",
+          "recommend": "Yes",
+          "quality": "Excellent",
+          "date": "2026-01-26T12:16:02.962Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S23",
+      "price": 74999,
+      "image": "https://m.media-amazon.com/images/I/61VfL-aiToL._SX679_.jpg",
+      "description": "Premium Android smartphone with Snapdragon processor and AMOLED display.",
+      "reviews": [
+        {
+          "id": 1769489661691,
+          "userId": "e760",
+          "user": "shreya12",
+          "rating": 3,
+          "comment": "Good product",
+          "recommend": "Yes",
+          "quality": "Good",
+          "date": "2026-01-27T04:54:21.691Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "OnePlus 11",
+      "price": 56999,
+      "image": "https://m.media-amazon.com/images/I/61amb0CfMGL._SX679_.jpg",
+      "description": "Flagship OnePlus phone with smooth performance and fast charging.",
+      "reviews": [
+        {
+          "id": 1769509854312,
+          "userId": "d808",
+          "user": "prerna03",
+          "rating": 5,
+          "comment": "Good phone, delivers a smooth, fast performance with a clean UI, great display, and reliable battery life - perfect for daily use.",
+          "recommend": "Yes",
+          "quality": "Excellent",
+          "date": "2026-01-27T10:30:54.312Z"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "MacBook Air M2",
+      "price": 114999,
+      "image": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._SX679_.jpg",
+      "description": "Ultra-thin laptop powered by Apple M2 chip for high performance and long battery life.",
+      "reviews": [
+        {
+          "id": 2,
+          "user": "tanaya123",
+          "rating": 5,
+          "comment": "Super fast, lightweight and amazing battery backup."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "HP Pavilion Laptop",
+      "price": 62999,
+      "image": "https://m.media-amazon.com/images/I/71TPda7cwUL._SX679_.jpg",
+      "description": "Reliable laptop for students and professionals with powerful performance.",
+      "reviews": []
+    },
+    {
+      "id": "6",
+      "name": "Sony WH-1000XM5 Headphones",
+      "price": 29999,
+      "image": "https://m.media-amazon.com/images/I/61bK6PMOC3L._SX679_.jpg",
+      "description": "Industry-leading noise cancellation with premium sound quality.",
+      "reviews": []
+    },
+    {
+      "id": "7",
+      "name": "Apple Watch Series 8",
+      "price": 45999,
+      "image": "https://m.media-amazon.com/images/I/71XMTLtZd5L._SX679_.jpg",
+      "description": "Advanced health tracking smartwatch with sleek Apple design.",
+      "reviews": []
+    },
+    {
+      "id": "8",
+      "name": "Samsung Galaxy Watch 4",
+      "price": 14999,
+      "image": "https://m.media-amazon.com/images/I/61ZjlBOp+rL._SX679_.jpg",
+      "description": "Smartwatch with fitness tracking and Wear OS support.",
+      "reviews": [
+        {
+          "id": 1769445979453,
+          "userId": "2017",
+          "user": "om123",
+          "rating": 2,
+          "comment": "bad product, poor quality",
+          "recommend": "No",
+          "quality": "Average",
+          "date": "2026-01-26T16:46:19.453Z"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Canon EOS 1500D DSLR",
+      "price": 39999,
+      "image": "https://m.media-amazon.com/images/I/914hFeTU2-L._SX679_.jpg",
+      "description": "Entry-level DSLR camera perfect for photography beginners.",
+      "reviews": []
+    },
+    {
+      "id": "10",
+      "name": "boAt Rockerz 255 Pro+",
+      "price": 1299,
+      "image": "https://m.media-amazon.com/images/I/61u1VALn6JL._SX679_.jpg",
+      "description": "Affordable wireless earphones with long battery life.",
+      "reviews": []
+    },
+    {
+      "id": "11",
+      "name": "Dell 24-inch Monitor",
+      "price": 18999,
+      "image": "https://m.media-amazon.com/images/I/71TPda7cwUL._SX679_.jpg",
+      "description": "Full HD monitor ideal for work, gaming, and entertainment.",
+      "reviews": []
+    },
+    {
+      "id": "12",
+      "name": "Logitech Wireless Mouse",
+      "price": 799,
+      "image": "https://m.media-amazon.com/images/I/61UxfXTUyvL._SX679_.jpg",
+      "description": "Ergonomic wireless mouse with smooth tracking.",
+      "reviews": []
+    }
+  ]
+}
