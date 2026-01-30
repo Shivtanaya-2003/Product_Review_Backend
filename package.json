@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json --host 0.0.0.0 --port 10000"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Shivtanaya-2003/Product_Review_Backend#readme",
   "dependencies": {
+    "cors": "^2.8.6",
     "json-server": "^0.17.4"
   }
 }
